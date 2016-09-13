@@ -7,6 +7,9 @@ hash npm 2>/dev/null && antigen bundle npm
 hash pip 2>/dev/null && antigen bundle pip
 hash vagrant 2>/dev/null && antigen bundle vagrant
 hash virtualenvwrapper.sh 2>/dev/null && antigen bundle virtualenvwrapper
+hash mvn 2>/dev/null && antigen bundle mvn
+hash rails 2>/dev/null && antigen bundle rails
+antigen bundle unixorn/rake-completion.zshplugin
 antigen bundle history-substring-search
 
 # Non oh-my-zsh plugins
@@ -22,7 +25,8 @@ then
     hash brew 2>/dev/null && antigen bundle brew
 fi
 
-# Non oh-my-zsh theme
-antigen theme nathanmyles/nate
+# zsh theme
+# if you fork this repo, change this to match your fork
+antigen theme nathanmyles/Dotfiles
 
 antigen apply

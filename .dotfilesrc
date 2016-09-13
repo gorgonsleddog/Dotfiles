@@ -1,6 +1,8 @@
 [dotfiles]
 repository = ~/Dotfiles
 ignore = [
+    '.zsh-theme',
+    'README.md',
     '.git',
     '.gitignore',
     '*.swp',

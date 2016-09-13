@@ -13,7 +13,6 @@ ehthumbs.db
 \#*\#
 /tags
 /.bundle/
-
-# ping
-.idea/
 *.iml
+/.idea/
+.rake_tasks
